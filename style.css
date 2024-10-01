@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #CAD2C5; /* Pale Green */
+}
+.converter h1 {
+    margin-top: 10px;
+    color: #2F3E46; /* Dark Slate */
+}
+
+.converter {
+    background-color: #84A98C; /* Soft Green */
+    padding: 5px 20px 10px 10px;
+    border-radius: 10px;
+    color: #2F3E46; /* Dark Slate */
+}
+form {
+    margin: 2rem 0 2rem 0;
+}
+form select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid #354F52; /* Slate Green border */
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    background-color: #CAD2C5; /* Pale Green background */
+    color: #2F3E46; /* Dark text */
+}
+
+.change-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.change-amount i {
+    margin-top: 1.30rem;
+    font-size: 1.5rem;
+    padding: 1.75rem;
+    color: #2F3E46; /* Dark Slate icon */
+}
+
+.select-container img {
+    border-radius: 1.5rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2F3E46; /* Dark Slate border */
+}
+
+.select-container select {
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: #84A98C; /* Pale Green for the dropdown */
+    color: #2F3E46; /* Dark text */
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: #2F3E46; /* Dark text */
+}
+
+form button {
+    border: 1px solid #354F52; /* Slate Green */
+    font-size: 1rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: #354F52; /* Slate Green button */
+    color: #CAD2C5; /* Light text on button */
+}
